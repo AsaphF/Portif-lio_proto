@@ -7,13 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Asaph Ferreira</h1>
         <nav>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#professional">Professional</a>
+            <a href="#hobbies">Informações Pessoais</a>
+            <a href="#Educacionais">Informações Educacionais</a>
+            <a href="#professional">Informações Professionais</a>
+            <a href="#Contato">Meios de Contato</a>
         </nav>
     </header>
     <body>
@@ -24,37 +27,55 @@
                 <p>Desenvolvedor FullStack</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="hobbies" style="background-color: #728FC2;" >
             <div class="inner-container">
-                <h3>My Hobbies</h3>
-                <p>Here's a list of some of my hobbies:</p>
-                <ul>
-                    <li>Hobby 1</li>
-                    <li>Hobby 2</li>
-                    <li>Hobby 3</li>
-                </ul>
+                <h3>Informações Pessoais</h3>
+                <p>👋 Olá, eu sou o Asaph, trabalho na área de desenvolvimento a quase um ano, e eu simplesmente amo programdar.</p>
+                <p>Sei que pode parecer clichê mas você poder ver as pessoas usando o que você criou é algo muitop muito bom.</p>
+                <p>🎮 A programação se transformou em um hobby para mim também, porém além dela, gosto de ler, assistir e jogar, principalemente jogos. Sobre isso, eu acho fascinante o aspecto de programação deles.</p>
+                <p>🎯 Tenho como objetivo pessoal, trabalhar para o exterior na área da programação, e esse é o meu objetivo principal que me fez querer me tornar um programador.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="Educacionais" style="background-color: #7692C4; margin-left: -150px;" >
             <div class="inner-container">
-                <h3>Professional Experience</h3>
-                <p>Here's a brief description of my professional experience:</p>
-                <ul>
-                    <li>Job 1</li>
-                    <li>Job 2</li>
-                    <li>Job 3</li>
-                </ul>
+                <h3>Informações Educacionais</h3>
+                <p>📚 Tenho ensino médio completo, e um quase completo em Contabilidade (larguei no último semestre quando descobri que seria ser programador)</p>
+                <p>📝 Gosto muito de aprender mais e mais tecnologias todos os dias, através de documentações, artigos e vídeos.</p>
+                <p>🗣️ Apesar de ser brasileiro, a lingua inglesa faz parte de mim muito mais que a portuguesa, sendo eu nela fluente, lendo, falando ou escutando.</p>
+            </div>
+        </div>
+        <div class="section" id="professional" style="background-color: #7796CB;" >
+            <div class="inner-container">
+                <h3>Informações Professionais</h3>
+                <p>👋 Olá, eu sou o Asaph, um desenvolvedor Fullstack que trabalha principalmente com Vue e Python.</p>
+                <p>🔭 Atualmente, estou trabalhando em uma startup chamada SimplesHub - Você pode acompanhar minha experiência diária aqui: <a href="https://github.com/AsaphF/My_Experience.git">Diário Repositório</a></p>
+                <p>🌱 No lado do frontend, minha experiência se estende à construção de plataformas dentro da startup, e no lado do backend, tenho trabalhado com APIs e Web Scraping.</p>
+                <p>📫 Minhas habilidades incluem HTML, CSS, SASS, Javascript, Typescript, Bootstrap, Vue.js, Nuxt, React, Python, Pyside.</p>
+            </div>
+        </div>
+        <div class="section" id="Contato" style="background-color: #213b69; height: 300px;" >
+            <div class="inner-container">
+                <form style="margin-left: 0px; display: flex; flex-direction: column;">
+                    <label for="fname">Nome:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Email:</label>
+                    <input type="email" id="lname" name="lname"><br><br>
+                    <label for="w3review">Mensagem:</label>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50">
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
             </div>
         </div>
     </body>
     <footer>
-        &copy; Your Name | 2023
+        &copy; Asaph Ferreira | 2023
         <div>
-            <a href="#">Social Media 1</a>
-            <a href="#">Social Media 2</a>
-            <a href="#">Social Media 3</a>
+            <a href="https://github.com/AsaphF">Github</a>
+            <a href="https://www.linkedin.com/in/asaph-ferreira-27409222a/">Linkedin</a>
+            <a href="https://twitter.com/Ferreiraqa">Twiter/X</a>
         </div>
     </footer>
-    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
 </body>
 </html>
